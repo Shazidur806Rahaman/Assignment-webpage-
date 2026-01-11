@@ -1,0 +1,28 @@
+.hero {
+  position: relative;
+  height: 100vh;
+  background-image: url("B13-A01-Knowledge-Vault/assets/hero-bg.png");
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(10, 25, 47, 0.701);
+}
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 700px;
+}
+.nav-content{
+  display: flex;
+}
+nav {
+  display: flex;
+  gap: 30px;
+}
+
+
