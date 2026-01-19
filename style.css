@@ -1,3 +1,10 @@
+nav {
+  display: flex;
+  gap: 30px;
+}
+.logo {
+  margin: 10px 40px;
+}
 .hero {
   position: relative;
   height: 100vh;
@@ -16,13 +23,103 @@
   position: relative;
   z-index: 2;
   max-width: 700px;
-}
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 360px;
+  text-transform: capitalize;
+  }
 .nav-content{
   display: flex;
-}
-nav {
-  display: flex;
+  align-items: center;
   gap: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+.btn {
+    display: inline-block;
+    padding: 6px 12px 6px 12px;
+     margin:10px 40px;
+    background-color:rgba(70, 145, 101, 1);
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    font-weight: 600;
+}
+.hero-buttons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+.btn-secondary {
+  background-color:transparent;
+  border: radius 4px;
+  border: 2px solid white;
+}
+
+.badge {
+  display: inline-block;
+  background: rgb(255, 255, 255);
+  color: #5fbf8f;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.hero h1 {
+  font-size: 70px;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.hero h1 span {
+  color: #5fbf6a;
+}
+.hero p {
+  font-size: 17px; 
+  color: #d1d5db;
+  text-align: center;
+  margin-bottom: 30px;
+  word-spacing: 4px;
+  font-style: normal;/* vai font sttyle parlam na jhamela onek r asssignment o complete hoy nai gf er sathe dekha korte hobe sondhay charidik diye jhamela pera pera r peraaa */
+  line-height:2; 
+}
+.problems h2 {
+  display: flex;
+justify-content: center;
+font-size: 44px;
+}
+.subtitle {
+    display: flex;
+justify-content: center;
+font-size: 18px;
+}
+.problem-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  text-align: center;
+}
+.problem-card {
+  margin-top: 8%;
+   padding: 20px;
+  border: 1px solid black;
+  border border-radius: 8px;
+}
+.problem-grid p {
+  font-size: 14px;
+}
+.problem-card img {
+  display: block;
+  margin: 0 auto 16px;
+}
+
 
 
