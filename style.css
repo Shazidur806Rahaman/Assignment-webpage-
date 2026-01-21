@@ -22,7 +22,7 @@ nav {
 .hero-content {
   position: relative;
   z-index: 2;
-  max-width: 700px;
+  max-width: 800px;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -48,6 +48,7 @@ nav {
     color: white;
     border-radius: 4px;
     font-weight: 600;
+    font-family: "Inter", sans-serif;
 }
 .hero-buttons {
   display: flex;
@@ -70,9 +71,11 @@ nav {
   font-weight: 500;
   margin-bottom: 20px;
   text-transform: uppercase;
+  font-family: "Inter", sans-serif;
 }
 .hero h1 {
   font-size: 70px;
+   font-family: "Inter", sans-serif;
   line-height: 1.2;
   text-align: center;
   margin-bottom: 20px;
@@ -81,6 +84,7 @@ nav {
 }
 .hero h1 span {
   color: #5fbf6a;
+   font-family: "Inter", sans-serif;
 }
 .hero p {
   font-size: 17px; 
@@ -88,38 +92,132 @@ nav {
   text-align: center;
   margin-bottom: 30px;
   word-spacing: 4px;
-  font-style: normal;/* vai font sttyle parlam na jhamela onek r asssignment o complete hoy nai gf er sathe dekha korte hobe sondhay charidik diye jhamela pera pera r peraaa */
+  font-family: "Inter", sans-serif;/* vai font sttyle parlam na jhamela onek r asssignment o complete hoy nai gf er sathe dekha korte hobe sondhay charidik diye jhamela pera pera r peraaa*/
   line-height:2; 
 }
 .problems h2 {
   display: flex;
 justify-content: center;
 font-size: 44px;
+ font-family: "Inter", sans-serif;
 }
 .subtitle {
     display: flex;
 justify-content: center;
 font-size: 18px;
+font-family: "Inter", sans-serif;
 }
 .problem-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 24px;
+  gap: 30px;
   text-align: center;
+  margin: 0px 50px 0px 50px;
+  background-color:  rgba(247, 246, 242, 1);
+  font-family: "Inter", sans-serif;
 }
 .problem-card {
   margin-top: 8%;
    padding: 20px;
-  border: 1px solid black;
-  border border-radius: 8px;
 }
 .problem-grid p {
   font-size: 14px;
 }
 .problem-card img {
+  padding: 14px;
   display: block;
   margin: 0 auto 16px;
+  background-color: rgba(255, 77, 0, 0.993);
+  border-radius: 360px;
 }
-
-
-
+.solution-content {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  margin-bottom: 30px;
+}
+.label {
+color:#3fae6b;
+font-size: 14px;
+font-weight: 500;
+font-family: "Inter", sans-serif;
+text-transform: uppercase;
+}
+.solution-text  h2 {
+font-size: 44px;
+font-family: "Inter", sans-serif;
+font-weight:700;
+text-transform: capitalize;
+margin-bottom: 10px;
+margin-top: 17px;
+}
+.description {
+  font-family: "Inter", sans-serif;
+  margin-top: 10px;
+  color:grey;
+  font-size: 16px;
+}
+ul {
+  margin-top: 50px;
+  list-style: none;
+  padding-left: 0%;
+}
+li {
+  margin-bottom: 15px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+}
+li::before {
+  content:'\2714';
+  color: white;
+  display: inline-block;
+  background-color:#21b356;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  margin-right: 10px;
+  border-radius: 360px;
+}
+.cta {
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 20px;
+  background-color:  rgba(247, 246, 242, 1);
+  padding: 80px 40px 80px 40px;
+  margin: 40px 40px 40px 40px;
+}
+.cta h2 {
+   font-family: "Inter", sans-serif;
+   font-size: 36px;
+   text-transform: capitalize;
+   margin-bottom: 10px;
+}
+.cta p {
+  color:  grey;
+  font-family: "Inter", sans-serif;
+margin-top: 10px;
+}
+.footer{
+  background:#061a2d;
+  padding:100px 0;
+}
+.footer-content {
+  display:flex;
+  align-items:flex-end;
+   justify-content:space-between;
+}
+.footer-logo img {
+  height:40px;
+}
+.footer-content p {
+  position:absolute;
+  left:50%;
+  transform:translateX(-50%);
+  margin:0;
+  color:#9fb3c8;
+  font-size:14px;
+}
