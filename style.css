@@ -2,8 +2,30 @@ nav {
   display: flex;
   gap: 30px;
 }
+nav a {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+}
 .logo {
   margin: 10px 40px;
+}
+.nav-content {  display: flex;
+  align-items: center;
+  gap: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px 6px 12px;
+     margin:10px 40px;
+    background-color:rgba(70, 145, 101, 1);
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
 }
 .hero {
   position: relative;
@@ -31,25 +53,6 @@ nav {
   padding-left: 360px;
   text-transform: capitalize;
   }
-.nav-content{
-  display: flex;
-  align-items: center;
-  gap: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.btn {
-    display: inline-block;
-    padding: 6px 12px 6px 12px;
-     margin:10px 40px;
-    background-color:rgba(70, 145, 101, 1);
-    text-decoration: none;
-    color: white;
-    border-radius: 4px;
-    font-weight: 600;
-    font-family: "Inter", sans-serif;
-}
 .hero-buttons {
   display: flex;
   gap: 16px;
